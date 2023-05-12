@@ -7,12 +7,7 @@ box.onclick = function() {
     value++;
     clickerCounter.textContent = value;
     box.width = value % 2 == 0 ? 200 : 300;
-    
-    // if (value % 2 == 0) {
-    //     cookie.width = 250;
-    // } else {
-    //     cookie.width = 180;
-    // }
+
 
     let timeStart= new Date();
     let timeNow = new Date();
